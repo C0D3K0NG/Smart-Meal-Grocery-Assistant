@@ -1,4 +1,3 @@
-
 import { FoodItem, Recipe, ShoppingListItem } from "../contexts/AppContext";
 
 export const mockPantryItems: FoodItem[] = [
@@ -192,6 +191,123 @@ export const mockRecipes: Recipe[] = [
     calories: 250,
     imageUrl: "https://images.unsplash.com/photo-1505575967455-40e256f73376?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
     tags: ["lunch", "quick", "chinese", "vegetarian"]
+  },
+  {
+    id: "recipe-5",
+    title: "Garlic Butter Salmon",
+    description: "A delicious and healthy salmon dish with a rich garlic butter sauce.",
+    ingredients: [
+      "4 salmon fillets",
+      "4 tbsp butter",
+      "4 cloves garlic, minced",
+      "1 lemon, juiced and zested",
+      "2 tbsp fresh parsley, chopped",
+      "Salt and pepper to taste"
+    ],
+    instructions: [
+      "Preheat oven to 375°F (190°C).",
+      "Season salmon fillets with salt and pepper.",
+      "In a small saucepan, melt butter over medium heat.",
+      "Add minced garlic and cook for 1-2 minutes until fragrant.",
+      "Stir in lemon juice, zest, and half the parsley.",
+      "Place salmon on a baking sheet lined with parchment paper.",
+      "Pour garlic butter sauce over salmon fillets.",
+      "Bake for 12-15 minutes until salmon is cooked through.",
+      "Garnish with remaining parsley before serving."
+    ],
+    prepTime: 10,
+    cookTime: 15,
+    servings: 4,
+    calories: 350,
+    imageUrl: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    tags: ["dinner", "seafood", "healthy", "quick"]
+  },
+  {
+    id: "recipe-6",
+    title: "Vegetable Curry",
+    description: "A rich and flavorful vegetable curry that's perfect for a weeknight dinner.",
+    ingredients: [
+      "2 tbsp vegetable oil",
+      "1 onion, diced",
+      "3 cloves garlic, minced",
+      "1 tbsp ginger, grated",
+      "2 tbsp curry powder",
+      "1 can (400ml) coconut milk",
+      "1 cup mixed vegetables (carrots, peas, potatoes)",
+      "1 can (400g) chickpeas, drained",
+      "Salt to taste",
+      "Fresh cilantro for garnish"
+    ],
+    instructions: [
+      "Heat oil in a large pot over medium heat.",
+      "Add onion and cook until softened, about 5 minutes.",
+      "Add garlic and ginger, cook for 1 minute until fragrant.",
+      "Stir in curry powder and cook for 30 seconds.",
+      "Add vegetables and stir to coat with the spices.",
+      "Pour in coconut milk and bring to a simmer.",
+      "Add chickpeas and season with salt.",
+      "Cover and simmer for 15-20 minutes until vegetables are tender.",
+      "Garnish with fresh cilantro before serving."
+    ],
+    prepTime: 15,
+    cookTime: 25,
+    servings: 4,
+    calories: 320,
+    imageUrl: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    tags: ["dinner", "vegetarian", "vegan", "indian"]
+  },
+  {
+    id: "recipe-7",
+    title: "Banana Overnight Oats",
+    description: "A nutritious and simple breakfast that you can prepare the night before.",
+    ingredients: [
+      "1/2 cup rolled oats",
+      "1/2 cup milk (or plant-based alternative)",
+      "1/2 banana, mashed",
+      "1 tbsp chia seeds",
+      "1 tbsp honey or maple syrup",
+      "1/4 tsp cinnamon",
+      "Pinch of salt"
+    ],
+    instructions: [
+      "In a jar or container, combine oats, milk, mashed banana, chia seeds, sweetener, cinnamon, and salt.",
+      "Stir well to combine all ingredients.",
+      "Cover and refrigerate overnight or for at least 4 hours.",
+      "In the morning, stir the oats and add more milk if desired for a thinner consistency.",
+      "Top with sliced banana, nuts, or additional cinnamon if desired."
+    ],
+    prepTime: 5,
+    cookTime: 0,
+    servings: 1,
+    calories: 290,
+    imageUrl: "https://images.unsplash.com/photo-1517673132405-a56a62b18caf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    tags: ["breakfast", "vegetarian", "no-cook", "healthy"]
+  },
+  {
+    id: "recipe-8",
+    title: "Caprese Salad",
+    description: "A simple and elegant Italian salad with fresh tomatoes, mozzarella, and basil.",
+    ingredients: [
+      "3 large tomatoes, sliced",
+      "250g fresh mozzarella, sliced",
+      "1 bunch fresh basil leaves",
+      "2 tbsp extra virgin olive oil",
+      "1 tbsp balsamic glaze",
+      "Salt and pepper to taste"
+    ],
+    instructions: [
+      "Arrange tomato and mozzarella slices alternately on a serving plate.",
+      "Tuck fresh basil leaves between the tomato and cheese slices.",
+      "Drizzle with olive oil and balsamic glaze.",
+      "Season with salt and freshly ground black pepper.",
+      "Serve immediately at room temperature."
+    ],
+    prepTime: 10,
+    cookTime: 0,
+    servings: 4,
+    calories: 220,
+    imageUrl: "https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
+    tags: ["salad", "italian", "vegetarian", "no-cook", "appetizer"]
   }
 ];
 

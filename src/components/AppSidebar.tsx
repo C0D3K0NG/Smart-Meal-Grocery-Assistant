@@ -7,6 +7,7 @@ import {
   Settings,
   ShoppingCart,
   User,
+  ChefHat,
 } from "lucide-react";
 
 import {
@@ -57,26 +58,13 @@ export default function AppSidebar() {
     <Sidebar>
       <SidebarHeader className="p-6">
         <Link to="/dashboard" className="flex items-center gap-2">
-          <span className="w-8 h-8 rounded-lg bg-smga-purple flex items-center justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="text-white"
-            >
-              <path d="M14 5c1.5-1 2-2 2-2s.5 1 2 2c1.6 1 3 1 3 1s0 1-1 2c-1 1-1 3-1 3s-1-1-2.5-2-3.5-1-3.5-1 0-2-1-3c-1-1-2-1-2-1s1.5 0 3 1z" />
-              <path d="M11 8c-.5-.5-1-1-1-1s-.5.5-1 1c-.5.5-1 1-1 1s0 .5.5 1c.5.5.5 1.5.5 1.5s.5-.5 1-1 1.5-.5 1.5-.5 0-1-.5-1.5c-.5-.5-1-.5-1-.5s.5 0 1 .5z" />
-              <path d="M14 15c2-1 2-3 2-3s1 1 3 2c2 1 3 1 3 1s0 2-2 3c-2 1-2 4-2 4s-1-2-3-3c-2-1-4-1-4-1s1-2 3-3z" />
-              <path d="M5 10c-2-1-4-1-4-1s1-1 3-2c2-1 2-3 2-3s1 1 3 2c2 1 4 1 4 1s0 2-2 3c-2 1-2 4-2 4s-2-2-4-4z" />
-            </svg>
+          <span className="w-10 h-10 rounded-lg bg-gradient-to-br from-smga-purple to-smga-purple/80 flex items-center justify-center shadow-md">
+            <ChefHat className="w-6 h-6 text-white" />
           </span>
-          <span className="font-semibold text-xl">SMGA</span>
+          <div className="font-bold text-xl">
+            <span className="text-smga-purple">SMGA</span>
+            <div className="text-xs font-normal text-muted-foreground">Meal Assistant</div>
+          </div>
         </Link>
       </SidebarHeader>
       <SidebarContent>

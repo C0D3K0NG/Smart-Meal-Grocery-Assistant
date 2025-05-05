@@ -16,7 +16,9 @@ const AppLayout = ({ children, title }: AppLayoutProps) => {
         <main className="flex-1 p-6 md:p-8 animate-fade-in">
           {title && (
             <header className="mb-8">
-              <h1 className="text-3xl font-semibold">{title}</h1>
+              <h1 className="text-3xl font-semibold">
+                <span className="bg-gradient-to-r from-smga-purple to-smga-green bg-clip-text text-transparent">{title}</span>
+              </h1>
             </header>
           )}
           {children}
