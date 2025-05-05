@@ -6,7 +6,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/card';
 import { Toast } from '@/components/ui/toast';
 import { useToast } from '@/components/ui/use-toast';
-import { Recipe, Robot } from 'lucide-react';
+import { ChefHat, Bot } from 'lucide-react';
 
 const AIRecipeGenerator = () => {
   const [prompt, setPrompt] = useState('');
@@ -35,7 +35,7 @@ const AIRecipeGenerator = () => {
     <Card className="w-full shadow-md border-t-4 border-t-smga-purple">
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
-          <Robot className="h-5 w-5 text-smga-purple" />
+          <Bot className="h-5 w-5 text-smga-purple" />
           AI Recipe Generator
         </CardTitle>
         <CardDescription>
@@ -88,7 +88,7 @@ const AIRecipeGenerator = () => {
           onClick={handleGenerateRecipe}
           disabled={isGenerating}
         >
-          <Recipe className="h-5 w-5" />
+          <ChefHat className="h-5 w-5" />
           {isGenerating ? "Generating Recipe..." : "Generate Recipe"}
         </Button>
       </CardFooter>
